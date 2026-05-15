@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Model Checkpoints (optional)
+*.pt
+*.pth
+
+# Large datasets (recommended)
+datasets/raw/*.csv
+datasets/raw/*.parquet
+datasets/raw/*.json
+
+# Processed datasets (optional)
+datasets/processed/*.csv
+datasets/processed/*.parquet
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
