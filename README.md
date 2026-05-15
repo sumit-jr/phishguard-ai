@@ -1,2 +1,2 @@
-🛡️ PhishGuard AI
-AI-Powered Phishing Detection Platform
+# 🛡️ PhishGuard AI
+## AI-Powered Phishing Detection Platform
