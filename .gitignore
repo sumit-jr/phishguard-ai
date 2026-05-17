@@ -32,6 +32,9 @@ datasets/raw/*.json
 datasets/processed/*.csv
 datasets/processed/*.parquet
 
+# Ignore all BERT artifacts
+models/bert/
+
 # Streamlit cache
 .streamlit/
 
