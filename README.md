@@ -240,7 +240,7 @@ http://office365-reset.net
 <details>
 <summary>📌 Click to View Demo Video</summary>
 
-[Watch Project Demo Video](screenshots/demo_video.mov)
+[Watch Project Demo Video](https://drive.google.com/file/d/1Ot6NBG02Sdqt4Nz1tl11VgQeCCWKhHB9/view?usp=sharing)
 
 </details>
 
