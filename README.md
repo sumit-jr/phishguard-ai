@@ -1,6 +1,12 @@
 # 🛡️ PhishGuard AI
 
-AI-powered phishing detection platform using TF-IDF, SVM, DistilBERT, and heuristic threat analysis with an interactive Streamlit dashboard.
+AI-powered phishing detection platform using TF-IDF, SVM, heuristic threat analysis, and an interactive Streamlit dashboard for real-time email and message security analysis.
+
+---
+
+# 🚀 Live Demo
+
+🔗 https://phishguard-ai-dashboard.streamlit.app/
 
 ---
 
@@ -10,15 +16,15 @@ AI-powered phishing detection platform using TF-IDF, SVM, DistilBERT, and heuris
 <summary>📌 Click to Expand Features</summary>
 
 - Real-time phishing email/message detection
-- Hybrid AI architecture (SVM + DistilBERT)
-- Threat intelligence analysis
-- Heuristic security scoring
+- Hybrid phishing analysis pipeline
+- Heuristic threat intelligence scoring
 - Confidence and risk evaluation
 - Interactive Streamlit dashboard
-- Fast lightweight inference pipeline
+- Fast lightweight inference engine
 - URL and suspicious keyword analysis
 - Trusted domain verification
 - Cybersecurity-focused preprocessing pipeline
+- Threat reason explanations
 
 </details>
 
@@ -39,8 +45,6 @@ TF-IDF Vectorization
 SVM Threat Classification
    ↓
 Heuristic Threat Analysis
-   ↓
-Conditional DistilBERT Verification
    ↓
 Threat Intelligence Scoring
    ↓
@@ -64,7 +68,6 @@ phishguard-ai/
 ├── models/
 ├── datasets/
 ├── screenshots/
-├── app.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -135,8 +138,8 @@ The model was trained on a merged phishing and legitimate email dataset containi
 - TF-IDF
 - SVM
 
-### NLP / Deep Learning
-- Hugging Face Transformers
+### NLP / AI
+- Transformers
 - DistilBERT
 - PyTorch
 
@@ -157,7 +160,7 @@ The model was trained on a merged phishing and legitimate email dataset containi
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/phishguard-ai.git
+git clone https://github.com/sumit-jr/phishguard-ai.git
 cd phishguard-ai
 ```
 
@@ -190,7 +193,7 @@ pip install -r requirements.txt
 ### Run Application
 
 ```bash
-streamlit run app.py
+streamlit run frontend/app.py
 ```
 
 </details>
@@ -202,17 +205,39 @@ streamlit run app.py
 <details>
 <summary>📌 Click to View Sample Inputs</summary>
 
+### 🚨 Phishing Example
+
 ```text
 Your bank account has been suspended.
 Verify immediately:
 http://secure-login-update.com
 ```
 
+### 🚨 Credential Theft Attempt
+
 ```text
 Your Office365 password expires today.
 Reset now:
 http://office365-reset.net
 ```
+
+### ✅ Legitimate Example
+
+```text
+Reminder: Team meeting tomorrow at 10 AM.
+Please prepare project updates.
+```
+
+</details>
+
+---
+
+## 🎥 Project Demo
+
+<details>
+<summary>📌 Click to View Demo Video</summary>
+
+[Watch Project Demo Video](https://drive.google.com/file/d/1Ot6NBG02Sdqt4Nz1tl11VgQeCCWKhHB9/view?usp=sharing)
 
 </details>
 
@@ -235,23 +260,12 @@ http://office365-reset.net
 
 ---
 
-## 🎥 Project Demo
-
-<details>
-<summary>📌 Click to View Demo Video</summary>
-
-[Watch Project Demo Video](https://drive.google.com/file/d/1Ot6NBG02Sdqt4Nz1tl11VgQeCCWKhHB9/view?usp=sharing)
-
-</details>
-
----
-
 ## 👨‍💻 Author
 
 <details>
 <summary>📌 Click to Expand Author Info</summary>
 
-Developed by Sumit Shah
+Developed by Sumit Sah
 
 AI + Cybersecurity Enthusiast
 
