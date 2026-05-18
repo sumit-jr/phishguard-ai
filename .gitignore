@@ -23,6 +23,8 @@ __pycache__/
 *.pt
 *.pth
 
+models/bert/
+
 # Large datasets (recommended)
 datasets/raw/*.csv
 datasets/raw/*.parquet
