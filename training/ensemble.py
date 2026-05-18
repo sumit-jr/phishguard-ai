@@ -541,10 +541,7 @@ def detect_phishing(text):
     # FINAL ENSEMBLE SCORE
     # =====================================================
 
-    final_score = (
-        0.6 * svm_score +
-        0.4 * bert_score
-    )
+    final_score = svm_score 
 
     # =====================================================
     # TRUSTED BRAND ADJUSTMENT
