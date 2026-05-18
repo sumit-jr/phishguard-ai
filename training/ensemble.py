@@ -530,29 +530,12 @@ def detect_phishing(text):
     svm_score = svm_predict(text)
 
     # =====================================================
-    # CASCADE LOGIC
+    # BERT DISABLED FOR CLOUD DEPLOYMENT
     # =====================================================
 
-    # clearly phishing
-    if svm_score >= 0.85:
+    bert_score = 0
 
-        bert_score = svm_score
-
-        bert_used = False
-
-    # clearly legitimate
-    elif svm_score <= 0.15:
-
-        bert_score = svm_score
-
-        bert_used = False
-
-    # uncertain region → semantic refinement
-    else:
-
-        bert_score = bert_predict(text)
-
-        bert_used = True
+    bert_used = False
 
     # =====================================================
     # FINAL ENSEMBLE SCORE
