@@ -33,6 +33,7 @@ datasets/raw/*.json
 # Processed datasets (optional)
 datasets/processed/*.csv
 datasets/processed/*.parquet
+!datasets/raw/top-1m.csv
 
 # Ignore all BERT artifacts
 models/bert/
